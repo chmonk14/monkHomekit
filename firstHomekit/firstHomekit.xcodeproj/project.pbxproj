@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110E2ED61DB48D0400A4DF36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E2ED51DB48D0400A4DF36 /* main.m */; };
+		110E2ED91DB48D0400A4DF36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E2ED81DB48D0400A4DF36 /* AppDelegate.m */; };
+		110E2EDC1DB48D0400A4DF36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E2EDB1DB48D0400A4DF36 /* ViewController.m */; };
+		110E2EDF1DB48D0400A4DF36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110E2EDD1DB48D0400A4DF36 /* Main.storyboard */; };
+		110E2EE11DB48D0400A4DF36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110E2EE01DB48D0400A4DF36 /* Assets.xcassets */; };
+		110E2EE41DB48D0400A4DF36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110E2EE21DB48D0400A4DF36 /* LaunchScreen.storyboard */; };
+		110E2EEF1DB48D0400A4DF36 /* firstHomekitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E2EEE1DB48D0400A4DF36 /* firstHomekitTests.m */; };
+		110E2EFA1DB48D0400A4DF36 /* firstHomekitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E2EF91DB48D0400A4DF36 /* firstHomekitUITests.m */; };
+		110E2F0A1DB48EED00A4DF36 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110E2F091DB48EED00A4DF36 /* HomeKit.framework */; };
+		113C9E1D1DB4C28C0058DC06 /* homesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113C9E1C1DB4C28C0058DC06 /* homesTableViewController.m */; };
+		113C9E201DB4D07B0058DC06 /* roomsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113C9E1F1DB4D07B0058DC06 /* roomsTableViewController.m */; };
+		1171EBAD1DB7B61200E9A6B9 /* oneStateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1171EBAC1DB7B61200E9A6B9 /* oneStateController.m */; };
+		118B89BB1E000A0000C4621F /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 118B89BA1E000A0000C4621F /* IntentHandler.m */; };
+		118B89C21E000A0000C4621F /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1187A5EA1DC7088300ADF5AB /* IntentsUI.framework */; };
+		118B89C61E000A0000C4621F /* IntentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 118B89C51E000A0000C4621F /* IntentViewController.m */; };
+		118B89C91E000A0000C4621F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118B89C71E000A0000C4621F /* MainInterface.storyboard */; };
+		118B89CD1E000A0000C4621F /* SiriHomeKitUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 118B89C11E000A0000C4621F /* SiriHomeKitUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		118B89D01E000A0000C4621F /* SiriHomeKit.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 118B89B71E000A0000C4621F /* SiriHomeKit.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		11DE844D1DC85E200068FEDC /* siriConfigTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE844C1DC85E200068FEDC /* siriConfigTVC.m */; };
+		11F963DB1DB5075100351593 /* accTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F963DA1DB5075100351593 /* accTableViewController.m */; };
+		11F963DE1DB50AF500351593 /* searchAccTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F963DD1DB50AF500351593 /* searchAccTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		110E2EEB1DB48D0400A4DF36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110E2EC91DB48D0400A4DF36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110E2ED01DB48D0400A4DF36;
+			remoteInfo = firstHomekit;
+		};
+		110E2EF61DB48D0400A4DF36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110E2EC91DB48D0400A4DF36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110E2ED01DB48D0400A4DF36;
+			remoteInfo = firstHomekit;
+		};
+		118B89CB1E000A0000C4621F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110E2EC91DB48D0400A4DF36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118B89C01E000A0000C4621F;
+			remoteInfo = SiriHomeKitUI;
+		};
+		118B89CE1E000A0000C4621F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110E2EC91DB48D0400A4DF36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118B89B61E000A0000C4621F;
+			remoteInfo = SiriHomeKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1187A6001DC7088300ADF5AB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				118B89CD1E000A0000C4621F /* SiriHomeKitUI.appex in Embed App Extensions */,
+				118B89D01E000A0000C4621F /* SiriHomeKit.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		110E2ED11DB48D0400A4DF36 /* firstHomekit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstHomekit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		110E2ED51DB48D0400A4DF36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		110E2ED71DB48D0400A4DF36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		110E2ED81DB48D0400A4DF36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		110E2EDA1DB48D0400A4DF36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		110E2EDB1DB48D0400A4DF36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		110E2EDE1DB48D0400A4DF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		110E2EE01DB48D0400A4DF36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		110E2EE31DB48D0400A4DF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		110E2EE51DB48D0400A4DF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110E2EEA1DB48D0400A4DF36 /* firstHomekitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstHomekitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		110E2EEE1DB48D0400A4DF36 /* firstHomekitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstHomekitTests.m; sourceTree = "<group>"; };
+		110E2EF01DB48D0400A4DF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110E2EF51DB48D0400A4DF36 /* firstHomekitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstHomekitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		110E2EF91DB48D0400A4DF36 /* firstHomekitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstHomekitUITests.m; sourceTree = "<group>"; };
+		110E2EFB1DB48D0400A4DF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110E2F071DB48EED00A4DF36 /* firstHomekit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = firstHomekit.entitlements; sourceTree = "<group>"; };
+		110E2F091DB48EED00A4DF36 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		113C9E1B1DB4C28C0058DC06 /* homesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homesTableViewController.h; sourceTree = "<group>"; };
+		113C9E1C1DB4C28C0058DC06 /* homesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homesTableViewController.m; sourceTree = "<group>"; };
+		113C9E1E1DB4D07B0058DC06 /* roomsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roomsTableViewController.h; sourceTree = "<group>"; };
+		113C9E1F1DB4D07B0058DC06 /* roomsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = roomsTableViewController.m; sourceTree = "<group>"; };
+		1171EBAB1DB7B61200E9A6B9 /* oneStateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneStateController.h; sourceTree = "<group>"; };
+		1171EBAC1DB7B61200E9A6B9 /* oneStateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneStateController.m; sourceTree = "<group>"; };
+		1187A5EA1DC7088300ADF5AB /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		118B89B71E000A0000C4621F /* SiriHomeKit.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriHomeKit.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		118B89B91E000A0000C4621F /* IntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentHandler.h; sourceTree = "<group>"; };
+		118B89BA1E000A0000C4621F /* IntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentHandler.m; sourceTree = "<group>"; };
+		118B89BC1E000A0000C4621F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118B89C11E000A0000C4621F /* SiriHomeKitUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriHomeKitUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		118B89C41E000A0000C4621F /* IntentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentViewController.h; sourceTree = "<group>"; };
+		118B89C51E000A0000C4621F /* IntentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentViewController.m; sourceTree = "<group>"; };
+		118B89C81E000A0000C4621F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		118B89CA1E000A0000C4621F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11DE844B1DC85E200068FEDC /* siriConfigTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = siriConfigTVC.h; sourceTree = "<group>"; };
+		11DE844C1DC85E200068FEDC /* siriConfigTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = siriConfigTVC.m; sourceTree = "<group>"; };
+		11F963D91DB5075100351593 /* accTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accTableViewController.h; sourceTree = "<group>"; };
+		11F963DA1DB5075100351593 /* accTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = accTableViewController.m; sourceTree = "<group>"; };
+		11F963DC1DB50AF500351593 /* searchAccTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchAccTableViewController.h; sourceTree = "<group>"; };
+		11F963DD1DB50AF500351593 /* searchAccTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchAccTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		110E2ECE1DB48D0400A4DF36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110E2F0A1DB48EED00A4DF36 /* HomeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110E2EE71DB48D0400A4DF36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110E2EF21DB48D0400A4DF36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118B89B41E000A0000C4621F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118B89BE1E000A0000C4621F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118B89C21E000A0000C4621F /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110E2EC81DB48D0400A4DF36 = {
+			isa = PBXGroup;
+			children = (
+				110E2ED31DB48D0400A4DF36 /* firstHomekit */,
+				110E2EED1DB48D0400A4DF36 /* firstHomekitTests */,
+				110E2EF81DB48D0400A4DF36 /* firstHomekitUITests */,
+				118B89B81E000A0000C4621F /* SiriHomeKit */,
+				118B89C31E000A0000C4621F /* SiriHomeKitUI */,
+				110E2ED21DB48D0400A4DF36 /* Products */,
+				110E2F081DB48EED00A4DF36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		110E2ED21DB48D0400A4DF36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				110E2ED11DB48D0400A4DF36 /* firstHomekit.app */,
+				110E2EEA1DB48D0400A4DF36 /* firstHomekitTests.xctest */,
+				110E2EF51DB48D0400A4DF36 /* firstHomekitUITests.xctest */,
+				118B89B71E000A0000C4621F /* SiriHomeKit.appex */,
+				118B89C11E000A0000C4621F /* SiriHomeKitUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		110E2ED31DB48D0400A4DF36 /* firstHomekit */ = {
+			isa = PBXGroup;
+			children = (
+				110E2F071DB48EED00A4DF36 /* firstHomekit.entitlements */,
+				110E2ED71DB48D0400A4DF36 /* AppDelegate.h */,
+				110E2ED81DB48D0400A4DF36 /* AppDelegate.m */,
+				110E2EDA1DB48D0400A4DF36 /* ViewController.h */,
+				110E2EDB1DB48D0400A4DF36 /* ViewController.m */,
+				110E2EDD1DB48D0400A4DF36 /* Main.storyboard */,
+				110E2EE01DB48D0400A4DF36 /* Assets.xcassets */,
+				110E2EE21DB48D0400A4DF36 /* LaunchScreen.storyboard */,
+				110E2EE51DB48D0400A4DF36 /* Info.plist */,
+				110E2ED41DB48D0400A4DF36 /* Supporting Files */,
+				113C9E1B1DB4C28C0058DC06 /* homesTableViewController.h */,
+				113C9E1C1DB4C28C0058DC06 /* homesTableViewController.m */,
+				113C9E1E1DB4D07B0058DC06 /* roomsTableViewController.h */,
+				113C9E1F1DB4D07B0058DC06 /* roomsTableViewController.m */,
+				11F963D91DB5075100351593 /* accTableViewController.h */,
+				11F963DA1DB5075100351593 /* accTableViewController.m */,
+				11F963DC1DB50AF500351593 /* searchAccTableViewController.h */,
+				11F963DD1DB50AF500351593 /* searchAccTableViewController.m */,
+				1171EBAB1DB7B61200E9A6B9 /* oneStateController.h */,
+				1171EBAC1DB7B61200E9A6B9 /* oneStateController.m */,
+				11DE844B1DC85E200068FEDC /* siriConfigTVC.h */,
+				11DE844C1DC85E200068FEDC /* siriConfigTVC.m */,
+			);
+			path = firstHomekit;
+			sourceTree = "<group>";
+		};
+		110E2ED41DB48D0400A4DF36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				110E2ED51DB48D0400A4DF36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		110E2EED1DB48D0400A4DF36 /* firstHomekitTests */ = {
+			isa = PBXGroup;
+			children = (
+				110E2EEE1DB48D0400A4DF36 /* firstHomekitTests.m */,
+				110E2EF01DB48D0400A4DF36 /* Info.plist */,
+			);
+			path = firstHomekitTests;
+			sourceTree = "<group>";
+		};
+		110E2EF81DB48D0400A4DF36 /* firstHomekitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				110E2EF91DB48D0400A4DF36 /* firstHomekitUITests.m */,
+				110E2EFB1DB48D0400A4DF36 /* Info.plist */,
+			);
+			path = firstHomekitUITests;
+			sourceTree = "<group>";
+		};
+		110E2F081DB48EED00A4DF36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				110E2F091DB48EED00A4DF36 /* HomeKit.framework */,
+				1187A5EA1DC7088300ADF5AB /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		118B89B81E000A0000C4621F /* SiriHomeKit */ = {
+			isa = PBXGroup;
+			children = (
+				118B89B91E000A0000C4621F /* IntentHandler.h */,
+				118B89BA1E000A0000C4621F /* IntentHandler.m */,
+				118B89BC1E000A0000C4621F /* Info.plist */,
+			);
+			path = SiriHomeKit;
+			sourceTree = "<group>";
+		};
+		118B89C31E000A0000C4621F /* SiriHomeKitUI */ = {
+			isa = PBXGroup;
+			children = (
+				118B89C41E000A0000C4621F /* IntentViewController.h */,
+				118B89C51E000A0000C4621F /* IntentViewController.m */,
+				118B89C71E000A0000C4621F /* MainInterface.storyboard */,
+				118B89CA1E000A0000C4621F /* Info.plist */,
+			);
+			path = SiriHomeKitUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		110E2ED01DB48D0400A4DF36 /* firstHomekit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110E2EFE1DB48D0400A4DF36 /* Build configuration list for PBXNativeTarget "firstHomekit" */;
+			buildPhases = (
+				110E2ECD1DB48D0400A4DF36 /* Sources */,
+				110E2ECE1DB48D0400A4DF36 /* Frameworks */,
+				110E2ECF1DB48D0400A4DF36 /* Resources */,
+				1187A6001DC7088300ADF5AB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				118B89CC1E000A0000C4621F /* PBXTargetDependency */,
+				118B89CF1E000A0000C4621F /* PBXTargetDependency */,
+			);
+			name = firstHomekit;
+			productName = firstHomekit;
+			productReference = 110E2ED11DB48D0400A4DF36 /* firstHomekit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		110E2EE91DB48D0400A4DF36 /* firstHomekitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110E2F011DB48D0400A4DF36 /* Build configuration list for PBXNativeTarget "firstHomekitTests" */;
+			buildPhases = (
+				110E2EE61DB48D0400A4DF36 /* Sources */,
+				110E2EE71DB48D0400A4DF36 /* Frameworks */,
+				110E2EE81DB48D0400A4DF36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				110E2EEC1DB48D0400A4DF36 /* PBXTargetDependency */,
+			);
+			name = firstHomekitTests;
+			productName = firstHomekitTests;
+			productReference = 110E2EEA1DB48D0400A4DF36 /* firstHomekitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		110E2EF41DB48D0400A4DF36 /* firstHomekitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110E2F041DB48D0400A4DF36 /* Build configuration list for PBXNativeTarget "firstHomekitUITests" */;
+			buildPhases = (
+				110E2EF11DB48D0400A4DF36 /* Sources */,
+				110E2EF21DB48D0400A4DF36 /* Frameworks */,
+				110E2EF31DB48D0400A4DF36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				110E2EF71DB48D0400A4DF36 /* PBXTargetDependency */,
+			);
+			name = firstHomekitUITests;
+			productName = firstHomekitUITests;
+			productReference = 110E2EF51DB48D0400A4DF36 /* firstHomekitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		118B89B61E000A0000C4621F /* SiriHomeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118B89D41E000A0000C4621F /* Build configuration list for PBXNativeTarget "SiriHomeKit" */;
+			buildPhases = (
+				118B89B31E000A0000C4621F /* Sources */,
+				118B89B41E000A0000C4621F /* Frameworks */,
+				118B89B51E000A0000C4621F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriHomeKit;
+			productName = SiriHomeKit;
+			productReference = 118B89B71E000A0000C4621F /* SiriHomeKit.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		118B89C01E000A0000C4621F /* SiriHomeKitUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118B89D11E000A0000C4621F /* Build configuration list for PBXNativeTarget "SiriHomeKitUI" */;
+			buildPhases = (
+				118B89BD1E000A0000C4621F /* Sources */,
+				118B89BE1E000A0000C4621F /* Frameworks */,
+				118B89BF1E000A0000C4621F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriHomeKitUI;
+			productName = SiriHomeKitUI;
+			productReference = 118B89C11E000A0000C4621F /* SiriHomeKitUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		110E2EC91DB48D0400A4DF36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ananta Solution";
+				TargetAttributes = {
+					110E2ED01DB48D0400A4DF36 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FHGM7WP2X4;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					110E2EE91DB48D0400A4DF36 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 110E2ED01DB48D0400A4DF36;
+					};
+					110E2EF41DB48D0400A4DF36 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 110E2ED01DB48D0400A4DF36;
+					};
+					118B89B61E000A0000C4621F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = FHGM7WP2X4;
+						ProvisioningStyle = Automatic;
+					};
+					118B89C01E000A0000C4621F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = FHGM7WP2X4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 110E2ECC1DB48D0400A4DF36 /* Build configuration list for PBXProject "firstHomekit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 110E2EC81DB48D0400A4DF36;
+			productRefGroup = 110E2ED21DB48D0400A4DF36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				110E2ED01DB48D0400A4DF36 /* firstHomekit */,
+				110E2EE91DB48D0400A4DF36 /* firstHomekitTests */,
+				110E2EF41DB48D0400A4DF36 /* firstHomekitUITests */,
+				118B89B61E000A0000C4621F /* SiriHomeKit */,
+				118B89C01E000A0000C4621F /* SiriHomeKitUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		110E2ECF1DB48D0400A4DF36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110E2EE41DB48D0400A4DF36 /* LaunchScreen.storyboard in Resources */,
+				110E2EE11DB48D0400A4DF36 /* Assets.xcassets in Resources */,
+				110E2EDF1DB48D0400A4DF36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110E2EE81DB48D0400A4DF36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110E2EF31DB48D0400A4DF36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118B89B51E000A0000C4621F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118B89BF1E000A0000C4621F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118B89C91E000A0000C4621F /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110E2ECD1DB48D0400A4DF36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113C9E201DB4D07B0058DC06 /* roomsTableViewController.m in Sources */,
+				11F963DB1DB5075100351593 /* accTableViewController.m in Sources */,
+				113C9E1D1DB4C28C0058DC06 /* homesTableViewController.m in Sources */,
+				110E2EDC1DB48D0400A4DF36 /* ViewController.m in Sources */,
+				110E2ED91DB48D0400A4DF36 /* AppDelegate.m in Sources */,
+				11F963DE1DB50AF500351593 /* searchAccTableViewController.m in Sources */,
+				1171EBAD1DB7B61200E9A6B9 /* oneStateController.m in Sources */,
+				11DE844D1DC85E200068FEDC /* siriConfigTVC.m in Sources */,
+				110E2ED61DB48D0400A4DF36 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110E2EE61DB48D0400A4DF36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110E2EEF1DB48D0400A4DF36 /* firstHomekitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110E2EF11DB48D0400A4DF36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110E2EFA1DB48D0400A4DF36 /* firstHomekitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118B89B31E000A0000C4621F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118B89BB1E000A0000C4621F /* IntentHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118B89BD1E000A0000C4621F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118B89C61E000A0000C4621F /* IntentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		110E2EEC1DB48D0400A4DF36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110E2ED01DB48D0400A4DF36 /* firstHomekit */;
+			targetProxy = 110E2EEB1DB48D0400A4DF36 /* PBXContainerItemProxy */;
+		};
+		110E2EF71DB48D0400A4DF36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110E2ED01DB48D0400A4DF36 /* firstHomekit */;
+			targetProxy = 110E2EF61DB48D0400A4DF36 /* PBXContainerItemProxy */;
+		};
+		118B89CC1E000A0000C4621F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 118B89C01E000A0000C4621F /* SiriHomeKitUI */;
+			targetProxy = 118B89CB1E000A0000C4621F /* PBXContainerItemProxy */;
+		};
+		118B89CF1E000A0000C4621F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 118B89B61E000A0000C4621F /* SiriHomeKit */;
+			targetProxy = 118B89CE1E000A0000C4621F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		110E2EDD1DB48D0400A4DF36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110E2EDE1DB48D0400A4DF36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		110E2EE21DB48D0400A4DF36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110E2EE31DB48D0400A4DF36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		118B89C71E000A0000C4621F /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				118B89C81E000A0000C4621F /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		110E2EFC1DB48D0400A4DF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		110E2EFD1DB48D0400A4DF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		110E2EFF1DB48D0400A4DF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = firstHomekit/firstHomekit.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FHGM7WP2X4;
+				INFOPLIST_FILE = firstHomekit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "th.co.saijo-denki.firstHomekit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		110E2F001DB48D0400A4DF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = firstHomekit/firstHomekit.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FHGM7WP2X4;
+				INFOPLIST_FILE = firstHomekit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "th.co.saijo-denki.firstHomekit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		110E2F021DB48D0400A4DF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = firstHomekitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.au.firstHomekitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firstHomekit.app/firstHomekit";
+			};
+			name = Debug;
+		};
+		110E2F031DB48D0400A4DF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = firstHomekitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.au.firstHomekitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firstHomekit.app/firstHomekit";
+			};
+			name = Release;
+		};
+		110E2F051DB48D0400A4DF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = firstHomekitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.au.firstHomekitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = firstHomekit;
+			};
+			name = Debug;
+		};
+		110E2F061DB48D0400A4DF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = firstHomekitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.au.firstHomekitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = firstHomekit;
+			};
+			name = Release;
+		};
+		118B89D21E000A0000C4621F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FHGM7WP2X4;
+				INFOPLIST_FILE = SiriHomeKitUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "th.co.saijo-denki.firstHomekit.SiriHomeKitUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		118B89D31E000A0000C4621F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FHGM7WP2X4;
+				INFOPLIST_FILE = SiriHomeKitUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "th.co.saijo-denki.firstHomekit.SiriHomeKitUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		118B89D51E000A0000C4621F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FHGM7WP2X4;
+				INFOPLIST_FILE = SiriHomeKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "th.co.saijo-denki.firstHomekit.SiriHomeKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		118B89D61E000A0000C4621F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FHGM7WP2X4;
+				INFOPLIST_FILE = SiriHomeKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "th.co.saijo-denki.firstHomekit.SiriHomeKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110E2ECC1DB48D0400A4DF36 /* Build configuration list for PBXProject "firstHomekit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110E2EFC1DB48D0400A4DF36 /* Debug */,
+				110E2EFD1DB48D0400A4DF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110E2EFE1DB48D0400A4DF36 /* Build configuration list for PBXNativeTarget "firstHomekit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110E2EFF1DB48D0400A4DF36 /* Debug */,
+				110E2F001DB48D0400A4DF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110E2F011DB48D0400A4DF36 /* Build configuration list for PBXNativeTarget "firstHomekitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110E2F021DB48D0400A4DF36 /* Debug */,
+				110E2F031DB48D0400A4DF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110E2F041DB48D0400A4DF36 /* Build configuration list for PBXNativeTarget "firstHomekitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110E2F051DB48D0400A4DF36 /* Debug */,
+				110E2F061DB48D0400A4DF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118B89D11E000A0000C4621F /* Build configuration list for PBXNativeTarget "SiriHomeKitUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118B89D21E000A0000C4621F /* Debug */,
+				118B89D31E000A0000C4621F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		118B89D41E000A0000C4621F /* Build configuration list for PBXNativeTarget "SiriHomeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118B89D51E000A0000C4621F /* Debug */,
+				118B89D61E000A0000C4621F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 110E2EC91DB48D0400A4DF36 /* Project object */;
+}
